@@ -1,17 +1,37 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "NapoleonDLP-Service",
+  "description": "> Project description",
   "author": "",
-  "license": "",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "mongoose": "^5.5.9",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.31.0",
+    "webpack-dev-server": "^3.3.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
+  },
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr38hana/NapoleonDLP-Service.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/hrr38hana/NapoleonDLP-Service/issues"
+  },
+  "homepage": "https://github.com/hrr38hana/NapoleonDLP-Service#readme"
 }
