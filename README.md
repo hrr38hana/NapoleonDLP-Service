@@ -1,13 +1,13 @@
 # Project Name
-
+Trek bike options bar
 > Project description
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/hrr38hana/buying-zone.git
+  - https://github.com/hrr38hana/reviews_module.git
+  - https://github.com/hrr38hana/andrewpiao1-service.git
+  - https://github.com/hrr38hana/NapoleonDLP-Proxy.git
 
 ## Table of Contents
 
@@ -16,8 +16,10 @@
 1. [Development](#development)
 
 ## Usage
+Server port 3017
+Npm run server-dev to run server 
 
-> Some usage instructions
+
 
 ## Requirements
 
