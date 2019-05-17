@@ -19,8 +19,6 @@ Trek bike options bar
 Server port 3017
 Npm run server-dev to run server 
 
-
-
 ## Requirements
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).

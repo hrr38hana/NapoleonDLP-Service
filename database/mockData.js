@@ -26,10 +26,11 @@ var randomPrice = function() {
 
 for (var i = 0; i < 101; i++) {
   var helmet = {};
-  helmet.name = `Name ${i}`;
+  helmet.id = i;
+  helmet.productName = `Name ${i}`;
   helmet.colors = colorOptions();
   helmet.price = randomPrice();
   fakeItems.push(helmet);
-};
+}
 
 module.exports.fakeItems = fakeItems;
