@@ -2,12 +2,11 @@ const express = require('express');
 const app = express();
 const port = 3017;
 var fakeItems = require('../database/mockData');
-const save = require('../database/index');
 
-app.get('/load', (req, res) => {
-  save.save(fakeItems.fakeItems);
-  console.log('fake items loaded to db');
-});
+// app.get('/load', (req, res) => {
+//   save.save(fakeItems.fakeItems);
+//   res.send('fake helmets loaded to db');
+// });
 
 app.get('/more', (req, res) => res.send('this endpoint scrolls helmets over'));
 

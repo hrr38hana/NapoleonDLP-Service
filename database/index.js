@@ -1,7 +1,7 @@
 //in here set up mongoose database
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var fakeItems = require('./mockData');
+
 // var bodyParse = require('body-parser');
 mongoose.connect('mongodb://localhost/helmets', { useNewUrlParser: true });
 

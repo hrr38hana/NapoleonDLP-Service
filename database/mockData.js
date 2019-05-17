@@ -1,3 +1,6 @@
+// var seeder = require('mongoose');
+const save = require('../database/index');
+
 var fakeItems = [];
 
 var randomColor = function() {
@@ -32,5 +35,7 @@ for (var i = 0; i < 101; i++) {
   helmet.price = randomPrice();
   fakeItems.push(helmet);
 }
+
+save.save(fakeItems);
 
 module.exports.fakeItems = fakeItems;
