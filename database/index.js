@@ -8,7 +8,7 @@ var db = mongoose.connection;
 var helmetsSchema = new Schema({
   id: Number,
   productName: String,
-  colors: [string],
+  colors: [],
   price: Number
 });
 
