@@ -18,6 +18,7 @@ Trek bike options bar
 ## Usage
 Server port 3017
 Npm run server-dev to run server 
+Npm run generator
 
 ## Requirements
 

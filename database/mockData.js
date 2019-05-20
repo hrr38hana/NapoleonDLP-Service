@@ -1,7 +1,9 @@
 // var seeder = require('mongoose');
-const save = require('../database/index');
+const {dropDB, save} = require('../database/index');
+const bodyParser = require('body-parser');
 
-var fakeItems = [];
+
+var mockData = [];
 
 var randomColor = function() {
   var letters = '0123456789ABCDEF';
@@ -33,9 +35,13 @@ for (var i = 0; i < 101; i++) {
   helmet.productName = `Name ${i}`;
   helmet.colors = colorOptions();
   helmet.price = randomPrice();
-  fakeItems.push(helmet);
+  mockData.push(helmet);
 }
 
-save.save(fakeItems);
 
-module.exports.fakeItems = fakeItems;
+dropDB();
+
+save(mockData);
+
+
+module.exports = mockData;
