@@ -1,4 +1,3 @@
-// var seeder = require('mongoose');
 const {dropDB, save} = require('../database/index');
 const bodyParser = require('body-parser');
 
