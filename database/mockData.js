@@ -25,7 +25,7 @@ var randomPrice = function() {
   return dollars + 0.99;
 };
 
-for (var i = 0; i < 101; i++) {
+for (var i = 0; i < 100; i++) {
   var helmet = {};
   helmet.id = i;
   helmet.productName = `Name ${i}`;

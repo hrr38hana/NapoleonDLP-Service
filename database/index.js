@@ -14,7 +14,7 @@ var dropDB = function() {
 var helmetSchema = new Schema({
   id: Number,
   productName: String,
-  colors: [],
+  colors: [String],
   price: Number
 });
 
