@@ -11,14 +11,14 @@ var dropDB = function() {
   });
 };
 
-var helmetsSchema = new Schema({
+var helmetSchema = new Schema({
   id: Number,
   productName: String,
   colors: [],
   price: Number
 });
 
-var Helmet = mongoose.model('Helmet', helmetsSchema);
+var Helmet = mongoose.model('Helmet', helmetSchema);
 
 var save = function(list) {
   for (var i = 0; i < list.length; i++) {
