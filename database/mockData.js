@@ -11,7 +11,7 @@ var randomColor = function() {
   return color;
 };
 
-var colorOptions = function() {
+var colors = function() {
   var list = [];
   var randomAmount = Math.floor(Math.random() * 6 + 1);
   for (var i = 0; i < randomAmount; i++) {
@@ -29,7 +29,7 @@ for (var i = 0; i < 101; i++) {
   var helmet = {};
   helmet.id = i;
   helmet.productName = `Name ${i}`;
-  helmet.colors = colorOptions();
+  helmet.colors = colors();
   helmet.price = randomPrice();
   mockData.push(helmet);
 }
