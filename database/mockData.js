@@ -1,6 +1,4 @@
 const {dropDB, save} = require('../database/index');
-const bodyParser = require('body-parser');
-
 
 var mockData = [];
 
@@ -22,7 +20,6 @@ var colorOptions = function() {
   return list;
 };
 
-
 var randomPrice = function() {
   var dollars = Math.floor(Math.random() * 100 + 50);
   return dollars + 0.99;
@@ -37,10 +34,7 @@ for (var i = 0; i < 101; i++) {
   mockData.push(helmet);
 }
 
-
 dropDB();
-
 save(mockData);
-
 
 module.exports = mockData;
